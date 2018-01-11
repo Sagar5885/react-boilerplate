@@ -2,55 +2,86 @@
 
 exports[`should render NotFoundPage correctly 1`] = `
 ShallowWrapper {
-  "complexSelector": ComplexSelector {
-    "buildPredicate": [Function],
-    "childrenOfNode": [Function],
-    "findWhereUnwrapped": [Function],
-  },
   "length": 1,
-  "node": <div>
-    404 Not Found! 
-    <Link
-        replace={false}
-        to="/"
-    >
-        Go Home
-    </Link>
-</div>,
-  "nodes": Array [
-    <div>
-      404 Not Found! 
-      <Link
-            replace={false}
-            to="/"
-      >
-            Go Home
-      </Link>
-</div>,
-  ],
-  "options": Object {},
-  "renderer": ReactShallowRenderer {
-    "_context": Object {},
-    "_element": <NotFoundPage />,
-    "_instance": null,
-    "_newState": null,
-    "_rendered": <div>
-      404 Not Found! 
-      <Link
-            replace={false}
-            to="/"
-      >
-            Go Home
-      </Link>
-</div>,
-    "_rendering": false,
-    "_updater": Updater {
-      "_renderer": [Circular],
-    },
-    "getRenderOutput": [Function],
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NotFoundPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
     "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
   },
-  "root": [Circular],
-  "unrendered": <NotFoundPage />,
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "404 Not Found! ",
+        <Link
+          replace={false}
+          to="/"
+>
+          Go Home
+</Link>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      "404 Not Found! ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Go Home",
+          "replace": false,
+          "to": "/",
+        },
+        "ref": null,
+        "rendered": "Go Home",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "404 Not Found! ",
+          <Link
+            replace={false}
+            to="/"
+>
+            Go Home
+</Link>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        "404 Not Found! ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Go Home",
+            "replace": false,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Go Home",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {},
 }
 `;

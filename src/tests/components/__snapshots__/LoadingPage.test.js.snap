@@ -2,52 +2,70 @@
 
 exports[`should render Loading page render correctly 1`] = `
 ShallowWrapper {
-  "complexSelector": ComplexSelector {
-    "buildPredicate": [Function],
-    "childrenOfNode": [Function],
-    "findWhereUnwrapped": [Function],
-  },
   "length": 1,
-  "node": <div
-    className="loader"
->
-    <img
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoadingPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <img
         className="loader__image"
         src="/images/loader.gif"
-    />
-</div>,
-  "nodes": Array [
-    <div
-      className="loader"
->
-      <img
-            className="loader__image"
-            src="/images/loader.gif"
-      />
-</div>,
-  ],
-  "options": Object {},
-  "renderer": ReactShallowRenderer {
-    "_context": Object {},
-    "_element": <LoadingPage />,
-    "_instance": null,
-    "_newState": null,
-    "_rendered": <div
-      className="loader"
->
-      <img
-            className="loader__image"
-            src="/images/loader.gif"
-      />
-</div>,
-    "_rendering": false,
-    "_updater": Updater {
-      "_renderer": [Circular],
+/>,
+      "className": "loader",
     },
-    "getRenderOutput": [Function],
-    "render": [Function],
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "className": "loader__image",
+        "src": "/images/loader.gif",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "img",
+    },
+    "type": "div",
   },
-  "root": [Circular],
-  "unrendered": <LoadingPage />,
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <img
+          className="loader__image"
+          src="/images/loader.gif"
+/>,
+        "className": "loader",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "loader__image",
+          "src": "/images/loader.gif",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {},
 }
 `;

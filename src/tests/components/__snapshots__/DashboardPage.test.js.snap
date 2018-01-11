@@ -2,37 +2,40 @@
 
 exports[`should render DashboardPage correctly 1`] = `
 ShallowWrapper {
-  "complexSelector": ComplexSelector {
-    "buildPredicate": [Function],
-    "childrenOfNode": [Function],
-    "findWhereUnwrapped": [Function],
-  },
   "length": 1,
-  "node": <div>
-    Dashboard page content.
-</div>,
-  "nodes": Array [
-    <div>
-      Dashboard page content.
-</div>,
-  ],
-  "options": Object {},
-  "renderer": ReactShallowRenderer {
-    "_context": Object {},
-    "_element": <DashboardPage />,
-    "_instance": null,
-    "_newState": null,
-    "_rendered": <div>
-      Dashboard page content.
-</div>,
-    "_rendering": false,
-    "_updater": Updater {
-      "_renderer": [Circular],
-    },
-    "getRenderOutput": [Function],
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DashboardPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
     "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
   },
-  "root": [Circular],
-  "unrendered": <DashboardPage />,
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Dashboard page content.",
+    },
+    "ref": null,
+    "rendered": "Dashboard page content.",
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Dashboard page content.",
+      },
+      "ref": null,
+      "rendered": "Dashboard page content.",
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {},
 }
 `;
